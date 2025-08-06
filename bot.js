@@ -19,6 +19,14 @@ bot.onText(/\/start/, async (msg) => {
             url: miniAppUrl
           }
         }
+      ],
+      [
+        {
+          text: '🔧 Отладка',
+          web_app: {
+            url: 'https://coin-swap.vercel.app/debug'
+          }
+        }
       ]
     ]
   };
